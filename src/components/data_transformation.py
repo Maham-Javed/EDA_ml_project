@@ -1,4 +1,3 @@
-
 import sys
 from dataclasses import dataclass
 
@@ -25,9 +24,8 @@ class DataTransformation:
 
     def get_data_transformer_object(self):
         '''
-        This function is responsible for data trnasformation
-        of different kinds of features.
-        It returns the preprocessor object.
+        This function si responsible for data trnasformation
+        
         '''
         try:
             numerical_columns = ["writing_score", "reading_score"]
